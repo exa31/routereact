@@ -4,7 +4,7 @@ import framework from '../assets/framework.jpg'
 
 export default function Work() {
     return (
-        <div className="bg-green-100 text-center h-screen flex items-center flex-col pt-14 px-10" id="work">
+        <div className="bg-green-100 text-center flex items-center flex-col py-14 px-10" id="work">
             <h1 className="text-5xl font-bold  my-2 ">My Recent Work</h1>
             <div className="w-3/12 bg-pink-400 h-1 rounded mx-auto my-4"></div>
             <p className=" opacity-70">Berikut adalah pekerjaan terbaru saya</p>
