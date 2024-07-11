@@ -12,7 +12,7 @@ export default function Layout() {
                 <div className="flex flex-shrink-0">
                     <h1 className="p-3 focus:border-slate-300 text-2xl font-bold">EXA.</h1>
                 </div>
-                <div className="flex m-2 p-2 md:hidden focus:border-slate-300 rounded-md" onClick={() => setActive(!active)} >
+                <div className="flex m-2 p-2 lg:hidden focus:border-slate-300 rounded-lg" onClick={() => setActive(!active)} >
                     <svg className={!active ? '' : "hidden"} xmlns="http://www.w3.org/2000/svg" width="14" height="14" id="list">
                         <g fill="none" fillRule="evenodd" stroke="white" strokeLinecap="round" strokeLinejoin="round"
                             strokeWidth="2">
