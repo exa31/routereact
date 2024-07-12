@@ -6,6 +6,7 @@ import Skill from "../pages/Skill"
 import Work from "../pages/Work"
 import Contact from "../pages/Contact"
 import ErrosPage from "../pages/ErrosPage"
+import Redux from "../pages/Redux"
 
 
 export const routers = createBrowserRouter([
@@ -29,6 +30,10 @@ export const routers = createBrowserRouter([
             {
                 path: "contact",
                 element: <Contact />
+            },
+            {
+                path: "Tugas-redux",
+                element: <Redux />
             }
         ]
     }

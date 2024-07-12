@@ -32,6 +32,7 @@ export default function Layout() {
                         <NavLink to="/" className="opacity-70 w-max hover:opacity-100 duration-300 m-2">About me</NavLink>
                         <NavLink to="/skill" className="opacity-70 w-max hover:opacity-100 duration-300 m-2">Skill Framework</NavLink>
                         <NavLink to="/work" className="opacity-70 w-max hover:opacity-100 duration-300 m-2">Recent Work</NavLink>
+                        <NavLink to="/Tugas-redux" className="opacity-70 w-max hover:opacity-100 duration-300 m-2">Redux</NavLink>
                     </div>
                     <div className="md:p-2 p-2">
                         <NavLink to="/contact" className=" hover:bg-zinc-700 p-1.5 border-2 opacity-70 hover:opacity-100 duration-300 border-white">
